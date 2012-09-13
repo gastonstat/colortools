@@ -1,0 +1,17 @@
+# functions
+export(
+  adjacent,
+  anagrams,
+  analogous,
+  col2HSV,
+  complementary,
+  opposite,
+  pals,
+  pizza,
+  sequential,
+  setColors,
+  splitComp,
+  square,
+  tetradic,
+  triadic,
+  wheel)
