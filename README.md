@@ -33,7 +33,7 @@ Or check out [www.gastonsanchez.com/colortools](http://www.gastonsanchez.com/col
 
 Links
 -----
-[DiscriMiner package github](http://github.com/gastonstat/colortools)
+[colorrools package github](http://github.com/gastonstat/colortools)
 
 [The R Project](http://www.r-project.org/)
 
