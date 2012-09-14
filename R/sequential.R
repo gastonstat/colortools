@@ -109,7 +109,7 @@ function(color, percentage=5, what="saturation",
 	{
 		n = length(seq(0, 1, by=percentage/100))
 		fx = unlist(fixed)
-		dev.new()
+		#dev.new()
 		plot(0, 0, type="n", xlim=c(0,1), ylim=c(0,1), axes=FALSE, xlab="", ylab="")
 		rect(0:(n-1)/n, 0, 1:n/n, 1, col=seq_col, border="lightgray")
 		mtext(seq_col, side=1, at=0.5:(n)/n, cex=0.8, las=2)

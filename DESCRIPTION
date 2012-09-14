@@ -1,8 +1,8 @@
 Package: colortools
 Type: Package
 Title: Tools for colors in an HSV color model
-Version: 0.1-1
-Date: 2012-09-13
+Version: 0.1-2
+Date: 2012-09-14
 Author: Gaston Sanchez
 Maintainer: Gaston Sanchez <gaston.sanchez@berkeley.edu>
 Description: R package with handy functions to help users select and play with
