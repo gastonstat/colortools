@@ -1,4 +1,4 @@
-R package "colortools" (version 0.1-1)
+R package "colortools"
 ============================
 
 This package is designed to help users generate color schemes and color palettes. It provides some handy functions that will allow you to select and play with colors in an HSV color model.
