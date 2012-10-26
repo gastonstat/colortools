@@ -3,13 +3,15 @@ R package "colortools"
 
 This package is designed to help users generate color schemes and color palettes. It provides some handy functions that will allow you to select and play with colors in an HSV color model.
 
-Installation options
+## Installation options
 
+Stable version from CRAN
 ```
 # colortools (stable version from CRAN)
 install.packages("colortools")
 ```
 
+Development version from github
 ```
 # colortools (latest version from github)
 install.packages("devtools") 
@@ -17,7 +19,7 @@ library(devtools)
 install_github('colortools',  username='gastonstat')
 ```
 
-Example Usage
+## Example Usage
 
 ```
 # load package
