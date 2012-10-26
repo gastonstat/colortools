@@ -4,32 +4,36 @@ R package "colortools"
 This package is designed to help users generate color schemes and color palettes. It provides some handy functions that will allow you to select and play with colors in an HSV color model.
 
 Installation options
------------------------------
-*  colortools (stable version from CRAN)
 
-   install.packages("colortools")
+```
+# colortools (stable version from CRAN)
+install.packages("colortools")
+```
 
-*  colortools (latest version from github)
-
-   install.packages("devtools") 
-
-   library(devtools)
-   
-   install_github('colortools',  username='gastonstat')
-
+```
+# colortools (latest version from github)
+install.packages("devtools") 
+library(devtools)
+install_github('colortools',  username='gastonstat')
+```
 
 Example Usage
--------------
-    > library(colortools)
 
-    > some_colors = setColors("#3D6DCC", 15)
+```
+# load package
+library(colortools)
 
-    > pizza(some_colors)
+# define some colors
+some_colors = setColors("#3D6DCC", 15)
 
-    > triadic("#3D6DCC")
+# pizza plot
+pizza(some_colors)
 
+# triadic scheme for color "#3D6DCC"
+triadic("#3D6DCC")
+```
 
-Or check out [www.gastonsanchez.com/colortools](http://www.gastonsanchez.com/colortools) for more information.
+More info at [www.gastonsanchez.com/colortools](http://www.gastonsanchez.com/colortools) for more information.
 
 Links
 -----
