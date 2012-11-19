@@ -2,7 +2,7 @@
 \alias{anagrams}
 \title{anagram colors}
 \usage{
-anagrams(color)
+  anagrams(color)
 }
 \arguments{
   \item{color}{an R color name or a color in hexadecimal
@@ -27,13 +27,11 @@ anagrams(color)
   an anagram like "#CD9110" or "#10CD91"
 }
 \examples{
-\dontrun{
 # anagrams of 'tomato'
 ana_tom <- anagrams("tomato")
 
 # plot tomato anagrams in a color 'pizza' wheel
 pizza(ana_tom, bg = "gray20")
-}
 }
 \author{
   Gaston Sanchez
@@ -41,3 +39,4 @@ pizza(ana_tom, bg = "gray20")
 \seealso{
   \code{\link{pizza}}
 }
+

@@ -1,19 +1,18 @@
-#'col2HSV: converts a color to HSV in hexadecimal notation
+#'@title col2HSV: converts a color to HSV in hexadecimal notation
 #'
+#'@description
 #'col2HSV converts an R color (or a set of colors) into an HSV color model, and
 #'then returns the color names in hexadeciaml notation
-#'
 #'
 #'@param color an R color name or a color in hexadecimal notation
 #'@return A character vector with the color(s) name(s) in hexadecimal notation
 #'@author Gaston Sanchez
 #'@seealso \code{\link{wheel}}
+#'@export
 #'@examples
 #'
-#'  \dontrun{
-#'  # convert "tomato"
-#'  col2HSV("tomato")
-#'  }
+#' # convert 'tomato'
+#' col2HSV("tomato")
 #'
 col2HSV <-
 function(color)

@@ -2,7 +2,8 @@
 \alias{splitComp}
 \title{Split Complementary Color Scheme}
 \usage{
-splitComp(color, plot = TRUE, bg = "white", labcol = NULL, title = TRUE)
+  splitComp(color, plot = TRUE, bg = "white",
+    labcol = NULL, title = TRUE)
 }
 \arguments{
   \item{color}{an R color name of a color in hexadecimal
@@ -35,13 +36,11 @@ splitComp(color, plot = TRUE, bg = "white", labcol = NULL, title = TRUE)
   tension.
 }
 \examples{
-\dontrun{
 # split-complementary colors of 'tomato' (no plot)
 splitComp("tomato", plot = FALSE)
 
 # split-complementary colors of 'tomato' (with dark gray background)
 splitComp("tomato", bg = "gray40")
-}
 }
 \author{
   Gaston Sanchez
@@ -49,3 +48,4 @@ splitComp("tomato", bg = "gray40")
 \seealso{
   \code{\link{complementary}}
 }
+

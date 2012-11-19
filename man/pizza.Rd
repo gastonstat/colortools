@@ -2,7 +2,8 @@
 \alias{pizza}
 \title{Pizza color wheel}
 \usage{
-pizza(colors, bg = "gray95", border = NULL, init.angle = 105, cex = 0.8, lty = NULL, labcol = NULL, 
+  pizza(colors, bg = "gray95", border = NULL,
+    init.angle = 105, cex = 0.8, lty = NULL, labcol = NULL,
     ...)
 }
 \arguments{
@@ -38,13 +39,11 @@ pizza(colors, bg = "gray95", border = NULL, init.angle = 105, cex = 0.8, lty = N
   This function is based on the \code{\link{pie}} function
 }
 \examples{
-\dontrun{
 # pizza color wheel for rainbow colors
 pizza(rainbow(7))
 
 # pizza color wheel for tomato (18 colors)
 pizza(setColors("tomato", 18), bg = "gray20", cex = 0.7)
-}
 }
 \author{
   Gaston Sanchez
@@ -52,3 +51,4 @@ pizza(setColors("tomato", 18), bg = "gray20", cex = 0.7)
 \seealso{
   \code{\link{wheel}}
 }
+

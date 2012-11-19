@@ -2,7 +2,8 @@
 \alias{sequential}
 \title{sequential HSV colors}
 \usage{
-sequential(color, percentage = 5, what = "saturation", s = NULL, v = NULL, alpha = NULL, fun = "linear", 
+  sequential(color, percentage = 5, what = "saturation",
+    s = NULL, v = NULL, alpha = NULL, fun = "linear",
     plot = TRUE, verbose = TRUE)
 }
 \arguments{
@@ -62,7 +63,6 @@ sequential(color, percentage = 5, what = "saturation", s = NULL, v = NULL, alpha
   logarithmic of the generated sequence will be taken.
 }
 \examples{
-\dontrun{
 # sequence for 'orange'
 sequential("orange")
 
@@ -78,10 +78,10 @@ sequential("orange", what = "value", s = 0.7, fun = "log")
 # sequential sequence for saturation, with fix value s=0.8, alpha=0.5, percentage 10, and fun='log'
 sequential("orange", 10, what = "value", s = 0.7, alpha = 0.5, fun = "log")
 }
-}
 \author{
   Gaston Sanchez
 }
 \seealso{
   \code{\link{pizza}}
 }
+

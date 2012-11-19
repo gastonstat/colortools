@@ -1,10 +1,12 @@
-#'sequential HSV colors
+#'@title sequential HSV colors
 #'
+#'@description
 #'This functions allows to get a sequence of colors in an HSV model with
 #'optional pre-especified numbers for saturation, value, and alpha. It is a
 #'very flexible function to play with different combinations of saturation,
 #'value, and alpha.
 #'
+#'@details
 #'The idea bechind this function is to explore a sequence of colors given some
 #'fixed numbers of saturation, valur or alpha for an HSV color model. The
 #'argument \code{what} will be taken to generate the sequence in the given
@@ -36,25 +38,23 @@
 #'the sequence
 #'@author Gaston Sanchez
 #'@seealso \code{\link{pizza}}
+#'@export
 #'@examples
 #'
-#'  \dontrun{
-#'  # sequence for "orange"
-#'  sequential("orange")
-#'  
-#'  # sequence for "orange" with fun="sqrt" transformation
-#'  sequential("orange", fun="sqrt")
-#'
-#'  # sequence for "orange" with fun="log" transformation
-#'  sequential("orange", fun="log")
-#'
-#'  # sequential sequence for value with fix saturation s=0.7 and fun="log"
-#'  sequential("orange", what="value", s=0.7, fun="log")
-#'
-#'  # sequential sequence for saturation, with fix value s=0.8, alpha=0.5, 
-#'  # percentage 10, and fun="log"
-#'  sequential("orange", 10, what="value", s=0.7, alpha=0.5, fun="log")
-#'  }
+#' # sequence for 'orange'
+#' sequential("orange")
+#' 
+#' # sequence for 'orange' with fun='sqrt' transformation
+#' sequential("orange", fun = "sqrt")
+#' 
+#' # sequence for 'orange' with fun='log' transformation
+#' sequential("orange", fun = "log")
+#' 
+#' # sequential sequence for value with fix saturation s=0.7 and fun='log'
+#' sequential("orange", what = "value", s = 0.7, fun = "log")
+#' 
+#' # sequential sequence for saturation, with fix value s=0.8, alpha=0.5, percentage 10, and fun='log'
+#' sequential("orange", 10, what = "value", s = 0.7, alpha = 0.5, fun = "log")
 #'
 sequential <-
 function(color, percentage=5, what="saturation", 

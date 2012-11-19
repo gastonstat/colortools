@@ -2,7 +2,7 @@
 \alias{setColors}
 \title{Set Colors for a color wheel}
 \usage{
-setColors(color, num)
+  setColors(color, num)
 }
 \arguments{
   \item{color}{an R color name or a color in hexadecimal
@@ -20,17 +20,16 @@ setColors(color, num)
   color wheel
 }
 \examples{
-\dontrun{
 # create a color wheel based on 'tomato'
 setColors("tomato", 12)
 
 # set 7 colors for '#3D6DCC'
 setColors("#3D6DCC", 7)
 }
-}
 \author{
   Gaston Sanchez
 }
 \seealso{
-  \code{\link{col2HSV}},
+  \code{\link{col2HSV}}
 }
+

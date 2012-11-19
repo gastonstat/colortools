@@ -2,8 +2,9 @@
 \alias{wheel}
 \title{Color Wheel}
 \usage{
-wheel(color, num = 12, bg = "gray95", border = NULL, init.angle = 105, cex = 1, lty = NULL, 
-    main = NULL, verbose = TRUE, ...)
+  wheel(color, num = 12, bg = "gray95", border = NULL,
+    init.angle = 105, cex = 1, lty = NULL, main = NULL,
+    verbose = TRUE, ...)
 }
 \arguments{
   \item{color}{an R color name or a color in hexadecimal
@@ -44,10 +45,8 @@ wheel(color, num = 12, bg = "gray95", border = NULL, init.angle = 105, cex = 1, 
   This function is based on the \code{\link{pie}} function
 }
 \examples{
-\dontrun{
 # wheel color with 18 slices for 'tomato'
 wheel("tomato", num = 18, bg = "gray20", cex = 0.7)
-}
 }
 \author{
   Gaston Sanchez
@@ -55,3 +54,4 @@ wheel("tomato", num = 18, bg = "gray20", cex = 0.7)
 \seealso{
   \code{\link{pizza}}
 }
+

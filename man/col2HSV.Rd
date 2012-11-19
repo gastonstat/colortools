@@ -2,7 +2,7 @@
 \alias{col2HSV}
 \title{col2HSV: converts a color to HSV in hexadecimal notation}
 \usage{
-col2HSV(color)
+  col2HSV(color)
 }
 \arguments{
   \item{color}{an R color name or a color in hexadecimal
@@ -18,10 +18,8 @@ col2HSV(color)
   hexadeciaml notation
 }
 \examples{
-\dontrun{
 # convert 'tomato'
 col2HSV("tomato")
-}
 }
 \author{
   Gaston Sanchez
@@ -29,3 +27,4 @@ col2HSV("tomato")
 \seealso{
   \code{\link{wheel}}
 }
+

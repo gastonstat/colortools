@@ -1,17 +1,16 @@
-# functions
-export(
-  adjacent,
-  anagrams,
-  analogous,
-  col2HSV,
-  complementary,
-  opposite,
-  pals,
-  pizza,
-  sequential,
-  setColors,
-  splitComp,
-  square,
-  tetradic,
-  triadic,
-  wheel)
+export(adjacent)
+export(anagrams)
+export(analogous)
+export(col2HSV)
+export(complementary)
+export(opposite)
+export(pals)
+export(pizza)
+export(sequential)
+export(setColors)
+export(splitComp)
+export(square)
+export(tetradic)
+export(triadic)
+export(wheel)
+

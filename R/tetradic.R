@@ -1,8 +1,10 @@
-#'Tetradic Color Scheme
+#'@title Tetradic Color Scheme
 #'
+#'@description
 #'Tetradic color schemes uses four colors arranged into two complementary
 #'pairs.
 #'
+#'@details
 #'The tetradic colors are obtained following a color wheel with 12 colors, each
 #'one spaced at 30 degrees from each oter.
 #'
@@ -19,15 +21,14 @@
 #'@author Gaston Sanchez
 #'@seealso \code{\link{complementary}}, \code{\link{splitComp}},
 #'\code{\link{adjacent}}, \code{\link{triadic}}, \code{\link{square}}
+#'@export
 #'@examples
 #'
-#'  \dontrun{
-#'  # tetradic colors for "tomato"
-#'  tetradic("tomato")
-#'
-#'  # tetradic colors for "tomato" with bg="gray20"
-#'  tetradic("tomato", bg="gray20")
-#'  }
+#' # tetradic colors for 'tomato'
+#' tetradic("tomato")
+#' 
+#' # tetradic colors for 'tomato' with bg='gray20'
+#' tetradic("tomato", bg = "gray20")
 #'
 tetradic <-
 function(color, plot=TRUE, bg="white", labcol=NULL, title=TRUE)

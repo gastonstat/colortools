@@ -1,7 +1,9 @@
-#'Pizza color wheel
+#'@title Pizza color wheel
 #'
+#'@description
 #'This function displays a color wheel with specified colors
 #'
+#'@details
 #'This function is based on the \code{\link{pie}} function
 #'
 #'@param colors a vector with R color names of colors in hexadecimal notation
@@ -16,15 +18,14 @@
 #'argument to \code{pizza}
 #'@author Gaston Sanchez
 #'@seealso \code{\link{wheel}}
+#'@export
 #'@examples
 #'
-#'  \dontrun{
-#'  # pizza color wheel for rainbow colors
-#'  pizza(rainbow(7))
-#'
-#'  # pizza color wheel for tomato (18 colors)
-#'  pizza(setColors("tomato", 18), bg="gray20", cex=0.7)
-#'  }
+#' # pizza color wheel for rainbow colors
+#' pizza(rainbow(7))
+#' 
+#' # pizza color wheel for tomato (18 colors)
+#' pizza(setColors("tomato", 18), bg = "gray20", cex = 0.7)
 #'
 pizza <-
 function(colors, bg="gray95", border=NULL, 

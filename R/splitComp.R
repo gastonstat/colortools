@@ -1,8 +1,10 @@
-#'Split Complementary Color Scheme
+#'@title Split Complementary Color Scheme
 #'
+#'@description
 #'The split-complementary color scheme is a variation of the complementary
 #'color scheme. It uses the two colors adjacent to its complement.
 #'
+#'@details
 #'This color scheme has the same strong visual contrast as the complementary
 #'scheme, but it is supposed to have less tension.
 #'
@@ -18,15 +20,14 @@
 #'colors in hexadecimal notation
 #'@author Gaston Sanchez
 #'@seealso \code{\link{complementary}}
+#'@export
 #'@examples
 #'
-#'  \dontrun{
-#'  # split-complementary colors of "tomato" (no plot)
-#'  splitComp("tomato", plot=FALSE)
-#'
-#'  # split-complementary colors of "tomato" (with dark gray background)
-#'  splitComp("tomato", bg="gray40")
-#'  }
+#' # split-complementary colors of 'tomato' (no plot)
+#' splitComp("tomato", plot = FALSE)
+#' 
+#' # split-complementary colors of 'tomato' (with dark gray background)
+#' splitComp("tomato", bg = "gray40")
 #'
 splitComp <-
 function(color, plot=TRUE, bg="white", labcol=NULL, title=TRUE)

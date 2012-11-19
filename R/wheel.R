@@ -1,7 +1,9 @@
-#'Color Wheel
+#'@title Color Wheel
 #'
+#'@description
 #'This function generates a color wheel for a given color
 #'
+#'@details
 #'This function is based on the \code{\link{pie}} function
 #'
 #'@param color an R color name or a color in hexadecimal notation
@@ -21,12 +23,12 @@
 #'hexadecimal notation
 #'@author Gaston Sanchez
 #'@seealso \code{\link{pizza}}
+#'@export
 #'@examples
 #'
-#'  \dontrun{
-#'  # wheel color with 18 slices for "tomato"
-#'  wheel("tomato", num=18, bg="gray20", cex=0.7)
-#'  }
+#' # wheel color with 18 slices for 'tomato'
+#' wheel("tomato", num = 18, bg = "gray20", cex = 0.7)
+#'
 #'
 wheel <-
 function(color, num=12, bg="gray95", border=NULL, 

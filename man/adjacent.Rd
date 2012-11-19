@@ -3,7 +3,8 @@
 \alias{analogous}
 \title{Adjacent or analogous colors}
 \usage{
-adjacent(color, plot = TRUE, bg = "white", labcol = NULL, title = TRUE)
+  adjacent(color, plot = TRUE, bg = "white", labcol = NULL,
+    title = TRUE)
 }
 \arguments{
   \item{color}{an R color name or a color in hexadecimal
@@ -36,7 +37,6 @@ adjacent(color, plot = TRUE, bg = "white", labcol = NULL, title = TRUE)
   other.
 }
 \examples{
-\dontrun{
 # analogous colors of 'red'
 adjacent("red", plot = FALSE)
 
@@ -46,7 +46,6 @@ analogous("tomato")
 # analogous colors of '#606FEF' with darker background
 adjacent("#606FEF", bg = "gray20")
 }
-}
 \author{
   Gaston Sanchez
 }
@@ -55,3 +54,4 @@ adjacent("#606FEF", bg = "gray20")
   \code{\link{triadic}}, \code{\link{tetradic}},
   \code{\link{square}}
 }
+

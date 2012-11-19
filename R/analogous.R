@@ -1,3 +1,4 @@
+#'@export
 analogous <-
 function(color, plot=TRUE, bg="white", labcol=NULL, title=TRUE) 
 {

@@ -2,7 +2,8 @@
 \alias{tetradic}
 \title{Tetradic Color Scheme}
 \usage{
-tetradic(color, plot = TRUE, bg = "white", labcol = NULL, title = TRUE)
+  tetradic(color, plot = TRUE, bg = "white", labcol = NULL,
+    title = TRUE)
 }
 \arguments{
   \item{color}{an R color name or a color in hexadecimal
@@ -34,13 +35,11 @@ tetradic(color, plot = TRUE, bg = "white", labcol = NULL, title = TRUE)
   oter.
 }
 \examples{
-\dontrun{
 # tetradic colors for 'tomato'
 tetradic("tomato")
 
 # tetradic colors for 'tomato' with bg='gray20'
 tetradic("tomato", bg = "gray20")
-}
 }
 \author{
   Gaston Sanchez
@@ -50,3 +49,4 @@ tetradic("tomato", bg = "gray20")
   \code{\link{adjacent}}, \code{\link{triadic}},
   \code{\link{square}}
 }
+

@@ -1,12 +1,13 @@
-#'Square color scheme
+#'@title Square color scheme
 #'
+#'@description
 #'The square color scheme is similar to the tetradic scheme, but with all four
 #'colors spaced around the color circle.
 #'
+#'@details
 #'The square colors are obtained following a color wheel with 12 colors, each
-#'one spaced at 30 degrees from each other.
-#'
-#'Square color schemes tend to work best if you let one color be dominant
+#'one spaced at 30 degrees from each other. Square color schemes tend to work 
+#'best if you let one color be dominant
 #'
 #'@param color an R color name or a color in hexadecimal notation
 #'@param plot logical value indicating whether to plot a color wheel with the
@@ -21,12 +22,12 @@
 #'@author Gaston Sanchez
 #'@seealso \code{\link{complementary}}, \code{\link{adjacent}},
 #'\code{\link{triadic}}, \code{\link{tetradic}}
+#'@export
 #'@examples
 #'
-#'  \dontrun{
-#'  # square color scheme for "tomato"
-#'  square("tomato")
-#'  }
+#' # square color scheme for 'tomato'
+#' square("tomato")
+#'
 #'
 square <-
 function(color, plot=TRUE, bg="white", labcol=NULL, title=TRUE)

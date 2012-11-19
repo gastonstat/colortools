@@ -1,11 +1,12 @@
-#'Triadic Color Scheme
+#'@title Triadic Color Scheme
 #'
+#'@description
 #'Triadic color schemes use colors that are evenly spaced around the color
 #'wheel.
 #'
+#'@details
 #'The triadic colors are obtained following a color wheel with 12 colors, each
 #'one spaced at 30 degrees from each other.
-#'
 #'Triadic color schemes tend to be quite vibrant. To use a triadic harmony
 #'successfully, the colors should be carefully balanced letting one color
 #'dominate and use the others for accent.
@@ -23,15 +24,14 @@
 #'@author Gaston Sanchez
 #'@seealso \code{\link{complementary}}, \code{\link{splitComp}},
 #'\code{\link{adjacent}}, \code{\link{tetradic}}, \code{\link{square}}
+#'@export
 #'@examples
 #'
-#'  \dontrun{
-#'  # triadic colors of "tomato"
-#'  triadic("tomato")
-#'
-#'  # triadic colors of "tomato" with background color "gray20"
-#'  triadic("tomato", bg="gray20")
-#'  }
+#' # triadic colors of 'tomato'
+#' triadic("tomato")
+#' 
+#' # triadic colors of 'tomato' with background color 'gray20'
+#' triadic("tomato", bg = "gray20")
 #'
 triadic <-
 function(color, plot=TRUE, bg="white", labcol=NULL, title=TRUE)

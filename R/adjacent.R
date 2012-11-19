@@ -1,8 +1,10 @@
-#'Adjacent or analogous colors
+#'@title Adjacent or analogous colors
 #'
+#'@description
 #'Adjacent color schemes use colors that are next to each other on the color
 #'wheel. These colors usually match well and create comfortable designs.
 #'
+#'@details
 #'The analogous colors are obtained following a color wheel with 12 colors,
 #'each one spaced at 30 degrees from each other.
 #'
@@ -20,18 +22,17 @@
 #'@author Gaston Sanchez
 #'@seealso \code{\link{complementary}}, \code{\link{splitComp}},
 #'\code{\link{triadic}}, \code{\link{tetradic}}, \code{\link{square}}
+#'@export
 #'@examples
 #'
-#'  \dontrun{
-#'  # analogous colors of "red"
-#'  adjacent("red", plot=FALSE)
-#'
-#'  # analogous colors of "tomato" with default color wheel
-#'  analogous("tomato")
-#'
-#'  # analogous colors of "#606FEF" with darker background
-#'  adjacent("#606FEF", bg="gray20")
-#'  }
+#' # analogous colors of 'red'
+#' adjacent("red", plot = FALSE)
+#' 
+#' # analogous colors of 'tomato' with default color wheel
+#' analogous("tomato")
+#' 
+#' # analogous colors of '#606FEF' with darker background
+#' adjacent("#606FEF", bg = "gray20")
 #'
 adjacent <-
 function(color, plot=TRUE, bg="white", labcol=NULL, title=TRUE)

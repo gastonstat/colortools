@@ -2,7 +2,8 @@
 \alias{triadic}
 \title{Triadic Color Scheme}
 \usage{
-triadic(color, plot = TRUE, bg = "white", labcol = NULL, title = TRUE)
+  triadic(color, plot = TRUE, bg = "white", labcol = NULL,
+    title = TRUE)
 }
 \arguments{
   \item{color}{an R color name or a color in hexadecimal
@@ -31,21 +32,17 @@ triadic(color, plot = TRUE, bg = "white", labcol = NULL, title = TRUE)
 \details{
   The triadic colors are obtained following a color wheel
   with 12 colors, each one spaced at 30 degrees from each
-  other.
-
-  Triadic color schemes tend to be quite vibrant. To use a
-  triadic harmony successfully, the colors should be
+  other. Triadic color schemes tend to be quite vibrant. To
+  use a triadic harmony successfully, the colors should be
   carefully balanced letting one color dominate and use the
   others for accent.
 }
 \examples{
-\dontrun{
 # triadic colors of 'tomato'
 triadic("tomato")
 
 # triadic colors of 'tomato' with background color 'gray20'
 triadic("tomato", bg = "gray20")
-}
 }
 \author{
   Gaston Sanchez
@@ -55,3 +52,4 @@ triadic("tomato", bg = "gray20")
   \code{\link{adjacent}}, \code{\link{tetradic}},
   \code{\link{square}}
 }
+

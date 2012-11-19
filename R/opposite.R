@@ -1,3 +1,4 @@
+#'@export
 opposite <-
 function(color, plot=TRUE, bg="white", labcol=NULL, title=TRUE) 
 {

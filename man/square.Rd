@@ -2,7 +2,8 @@
 \alias{square}
 \title{Square color scheme}
 \usage{
-square(color, plot = TRUE, bg = "white", labcol = NULL, title = TRUE)
+  square(color, plot = TRUE, bg = "white", labcol = NULL,
+    title = TRUE)
 }
 \arguments{
   \item{color}{an R color name or a color in hexadecimal
@@ -32,16 +33,12 @@ square(color, plot = TRUE, bg = "white", labcol = NULL, title = TRUE)
 \details{
   The square colors are obtained following a color wheel
   with 12 colors, each one spaced at 30 degrees from each
-  other.
-
-  Square color schemes tend to work best if you let one
-  color be dominant
+  other. Square color schemes tend to work best if you let
+  one color be dominant
 }
 \examples{
-\dontrun{
 # square color scheme for 'tomato'
 square("tomato")
-}
 }
 \author{
   Gaston Sanchez
@@ -50,3 +47,4 @@ square("tomato")
   \code{\link{complementary}}, \code{\link{adjacent}},
   \code{\link{triadic}}, \code{\link{tetradic}}
 }
+

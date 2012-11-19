@@ -1,5 +1,6 @@
-#'Set Colors for a color wheel
+#'@title Set Colors for a color wheel
 #'
+#'@description
 #'This function set a given number of colors to create a color wheel
 #'
 #'
@@ -8,16 +9,15 @@
 #'@return A character vector with the given color and the set of colors to
 #'create a wheel color
 #'@author Gaston Sanchez
-#'@seealso \code{\link{col2HSV}},
+#'@seealso \code{\link{col2HSV}}
+#'@export
 #'@examples
 #'
-#'  \dontrun{
-#'  # create a color wheel based on "tomato"
-#'  setColors("tomato", 12)
-#'
-#'  # set 7 colors for "#3D6DCC"
-#'  setColors("#3D6DCC", 7)
-#'  }
+#' # create a color wheel based on 'tomato'
+#' setColors("tomato", 12)
+#' 
+#' # set 7 colors for '#3D6DCC'
+#' setColors("#3D6DCC", 7)
 #'
 setColors <-
 function(color, num)
