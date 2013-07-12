@@ -1,6 +1,6 @@
-# `colortools`
+# `"colortools"`
 
-`colortools` is an R package designed to help users generate color schemes and color palettes. It provides some handy functions that will allow you to select and play with colors in an HSV color model.
+`colortools` is an R package designed to help users generate color schemes and color palettes. It provides some handy functions that will allow you to select and play with colors in an [HSV](http://en.wikipedia.org/wiki/HSL_and_HSV) color representation.
 
 ## Installation
 
@@ -46,6 +46,9 @@ tetradic("#3D6DCC")
 
 # square scheme for color "#3D6DCC"
 square("#3D6DCC")
+
+# sequential colors for "#3D6DCC"
+sequential("#3D6DCC)
 ```
 
 Author Contact
