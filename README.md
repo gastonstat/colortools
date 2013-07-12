@@ -48,11 +48,11 @@ tetradic("#3D6DCC")
 square("#3D6DCC")
 
 # sequential colors for "#3D6DCC"
-sequential("#3D6DCC)
+sequential("#3D6DCC")
 ```
 
 Author Contact
 --------------
 [www.gastonsanchez.com](http://www.gastonsanchez.com)
 
-Gaston Sanchez (```gaston.stat at gmail.com```)
+Gaston Sanchez (`gaston.stat at gmail.com`)
