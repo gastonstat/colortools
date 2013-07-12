@@ -4,13 +4,13 @@
 
 ## Installation
 
-Stable version on CRAN
+Stable version on [CRAN](http://cran.r-project.org/web/packages/colortools/index.html)
 ```ruby
 # stable version
 install.packages("colortools")
 ```
 
-Development version on github
+Development version on [github](https://github.com/gastonstat/colortools)
 ```ruby 
 # development version
 library(devtools)
@@ -52,4 +52,4 @@ Author Contact
 --------------
 [www.gastonsanchez.com](http://www.gastonsanchez.com)
 
-Gaston Sanchez (```ruby gaston.stat at gmail.com ```)
+Gaston Sanchez (```gaston.stat at gmail.com```)
