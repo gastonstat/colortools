@@ -1,8 +1,8 @@
 Package: colortools
 Type: Package
 Title: Tools for colors in an Hue-Saturation-Value (HSV) color model
-Version: 0.1-3
-Date: 2012-11-18
+Version: 0.1.4
+Date: 2013-07-12
 Author: Gaston Sanchez
 Maintainer: Gaston Sanchez <gaston.stat@gmail.com>
 Description: R package with handy functions to help users select and play with
