@@ -1,6 +1,6 @@
 #' @export
 analogous <-
-function(color, plot=TRUE, bg="white", labcol=NULL, title=TRUE) 
+function(color, plot=TRUE, bg="white", labcol=NULL, cex=0.8, title=TRUE) 
 {
-	adjacent(color, plot=plot, bg=bg, labcol=labcol, title=title)
+	adjacent(color, plot=plot, bg=bg, labcol=labcol, cex=cex, title=title)
 }

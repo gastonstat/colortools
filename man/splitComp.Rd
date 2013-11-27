@@ -3,7 +3,7 @@
 \title{Split Complementary Color Scheme}
 \usage{
   splitComp(color, plot = TRUE, bg = "white",
-    labcol = NULL, title = TRUE)
+    labcol = NULL, cex = 0.8, title = TRUE)
 }
 \arguments{
   \item{color}{an R color name of a color in hexadecimal
@@ -17,6 +17,9 @@
 
   \item{labcol}{color for the labels (i.e. names of the
   colors). Used only when \code{plot=TRUE}}
+
+  \item{cex}{numeric value indicating the character
+  expansion of the labels}
 
   \item{title}{logical value indicating whether to display
   a title in the plot. Unsed only when \code{plot=TRUE}}

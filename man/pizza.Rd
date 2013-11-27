@@ -2,8 +2,8 @@
 \alias{pizza}
 \title{Pizza color wheel}
 \usage{
-  pizza(colors, bg = "gray95", border = NULL,
-    init.angle = 105, cex = 0.8, lty = NULL, labcol = NULL,
+  pizza(colors, bg = "gray95", border = NA,
+    init.angle = 105, cex = 0.8, lty = 1, labcol = NULL,
     ...)
 }
 \arguments{

@@ -3,7 +3,7 @@
 \title{Triadic Color Scheme}
 \usage{
   triadic(color, plot = TRUE, bg = "white", labcol = NULL,
-    title = TRUE)
+    cex = 0.8, title = TRUE)
 }
 \arguments{
   \item{color}{an R color name or a color in hexadecimal
@@ -17,6 +17,9 @@
 
   \item{labcol}{color for the labels (i.e. names of the
   colors). Used only when \code{plot=TRUE}}
+
+  \item{cex}{numeric value indicating the character
+  expansion of the labels}
 
   \item{title}{logical value indicating whether to display
   a title in the plot. Used only when \code{plot=TRUE}}
