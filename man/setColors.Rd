@@ -16,7 +16,7 @@
   colors to create a wheel color
 }
 \description{
-  This function set a given number of colors to create a
+  This function sets a given number of colors to create a
   color wheel
 }
 \examples{

@@ -40,8 +40,8 @@
   The complementary color is obtained following a color
   wheel with 12 colors, each one spaced at 30 degrees from
   each other. Complementary color schemes are tricky to use
-  in large doses, but work well when you wnat something to
-  stand out. In addition, omplementary colors are really
+  in large doses, but work well when you want something to
+  stand out. In addition, complementary colors are really
   bad for text.
 }
 \examples{
