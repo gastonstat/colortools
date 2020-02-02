@@ -15,7 +15,7 @@
 \description{
   col2HSV converts an R color (or a set of colors) into an
   HSV color model, and then returns the color names in
-  hexadeciaml notation
+  hexadecimal notation
 }
 \examples{
 # convert 'tomato'
