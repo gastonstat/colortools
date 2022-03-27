@@ -2,6 +2,20 @@
 
 `colortools` is an R package designed to help users generate color schemes and color palettes. It provides some handy functions that will allow you to select and play with colors in an [HSV](http://en.wikipedia.org/wiki/HSL_and_HSV) color representation.
 
+
+## Donation
+
+As a Data Science and Statistics educator, I love to share the work I do. 
+Each month I spend dozens of hours curating learning materials and computational
+tools like this R package. If you find any value and usefulness in `colortools`, 
+please consider making a 
+<a href="https://www.paypal.com/donate?business=ZF6U7K5MW25W2&currency_code=USD" target="_blank">one-time donation---via paypal---in any amount</a> 
+(e.g. the amount you would spend inviting me a coffee or any other drink). 
+Your support really matters.
+
+<a href="https://www.paypal.com/donate?business=ZF6U7K5MW25W2&currency_code=USD" target="_blank"><img src="https://www.gastonsanchez.com/images/donate.png" width="140" height="60"/></a>
+
+
 ## Installation
 
 Stable version on [CRAN](http://cran.r-project.org/web/packages/colortools/index.html)
