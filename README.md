@@ -65,8 +65,8 @@ square("#3D6DCC")
 sequential("#3D6DCC")
 ```
 
-## Author Contact
+## Author
 
-[www.gastonsanchez.com](http://www.gastonsanchez.com)
+[www.gastonsanchez.com](https://www.gastonsanchez.com)
 
 Gaston Sanchez (`gaston.stat at gmail.com`)
