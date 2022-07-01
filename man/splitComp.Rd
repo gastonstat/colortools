@@ -22,7 +22,7 @@
   expansion of the labels}
 
   \item{title}{logical value indicating whether to display
-  a title in the plot. Unsed only when \code{plot=TRUE}}
+  a title in the plot. Used only when \code{plot=TRUE}}
 }
 \value{
   A character vector with the given color and the

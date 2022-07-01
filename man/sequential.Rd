@@ -14,7 +14,7 @@
   steps of the sequence in percentage}
 
   \item{what}{character string indicating what parameter to
-  taki into account to generate the sequence. Possible
+  take into account to generate the sequence. Possible
   values are \code{"saturation"}, \code{"value"}, and
   \code{alpha}}
 
@@ -38,7 +38,7 @@
   the color names of the sequence}
 }
 \description{
-  This functions allows to get a sequence of colors in an
+  This function allows to get a sequence of colors in an
   HSV model with optional pre-especified numbers for
   saturation, value, and alpha. It is a very flexible
   function to play with different combinations of
